@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrícula ADS</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styleMES.css">
+</head>
+<body>
+  <div class="container py-4">
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+      <div class="d-flex align-items-center gap-3">
+        <img src="../logo.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <a href="../MP.html" class="btn btn-primary rounded-pill px-4">Nv: 25</a>
+        <a href="../Perfil.html">
+          <img src="../frame1.svg" alt="Foto do usuário" class="rounded-circle border border-primary shadow" style="width: 80px; height: 80px; object-fit: cover;">
+        </a>
+      </div>
+    </header>
+
+    <!-- Banner de boas-vindas -->
+    <section class="text-center bg-light rounded-4 shadow p-4 mb-4">
+      <h1 class="fw-bold text-primary">Engenharia de Software</h1>
+    </section>
+
+    <!-- Menu de navegação -->
+    <nav class="nav justify-content-center mb-5 flex-wrap gap-3">
+      <a class="btn btn-outline-primary rounded-pill px-4" href="../index.html">Home</a>
+      <a class="btn btn-outline-primary rounded-pill px-4" href="../Cursos.html">Cursos</a>
+      <a class="btn btn-outline-primary rounded-pill px-4" href="../Noticias.html">Notícias</a>
+      <a class="btn btn-outline-primary rounded-pill px-4" href="../Novidades.html">Novidades</a>
+      <a class="btn btn-outline-primary rounded-pill px-4" href="../Contato.html">Contato</a>
+    </nav>
+
+    <!-- Curso Info -->
+    <div class="text-center mb-5">
+      <div class="mb-4">
+        <p class="lead">Carga horária: 760 horas</p>
+        <p>Modalidade: Online<br>Duração: 12 meses (Flexível)</p>
+        <p class="text-success">Certificação ao concluir ✅</p>
+      </div>
+      <h3 class="text-primary">De R$ 2.097,00 por R$ 1.397,00 à vista<br>ou 12x de R$ 139,70 no cartão.</h3>
+    </div>
+
+    <!-- Formulário -->
+    <div class="form-section p-4 mb-4">
+      <h2 class="text-center mb-4">Dados do Aluno</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <label class="form-label">Nome completo</label>
+          <input type="text" class="form-control form-control-custom" value="Fulano da Silva">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control form-control-custom" value="usuário@gmail.com">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Telefone</label>
+          <input type="tel" class="form-control form-control-custom" value="(17) 98821-3333">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Senha</label>
+          <input type="password" class="form-control form-control-custom" value="************">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">CPF</label>
+          <input type="text" class="form-control form-control-custom" value="74357854375">
+        </div>
+        <div class="col-md-6 d-flex align-items-end">
+          <button class="btn btn-outline-primary w-100">Selecionar foto</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagamento -->
+    <div class="mb-5">
+      <h2 class="text-center mb-4">Opções de Pagamento</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5 payment-option selected">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cartão de crédito/débito</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 payment-option">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <h5 class="card-title">Pix</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Termos -->
+    <div class="text-center mb-4">
+      <p class="text-muted">Ao se inscrever, você concorda com nossos termos de uso.</p>
+      <a href="../Cursos/ES.html" class="btn btn-primary-custom btn-lg mb-3">Finalizar Matrícula</a>
+      <br>
+      <a href="../Cursos.html" class="btn btn-outline-secondary">⬅ Voltar</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelectorAll('.payment-option').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('.payment-option').forEach(el => el.classList.remove('selected'));
+        item.classList.add('selected');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.course-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.125);
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.course-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.progress-bar {
+  border-radius: 4px;
+}
+
+.badge {
+  font-weight: 500;
+  padding: 0.5em 0.75em;
+}

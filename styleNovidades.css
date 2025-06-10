@@ -1,0 +1,33 @@
+.featured-card {
+  transition: transform 0.3s ease;
+}
+.featured-card:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.new-badge {
+  font-weight: 700;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  padding: 0.25rem 0.75rem;
+}
+
+.featured-title {
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.featured-description {
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.user-level {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.25rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

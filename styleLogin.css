@@ -1,0 +1,112 @@
+/* Estilos personalizados mantendo a identidade visual original */
+:root {
+    --primary-color: #70c8ff;
+    --secondary-color: #d9d9d9;
+    --dark-color: #2c3e50;
+    --light-color: #ffffff;
+    --gray-color: #7f8c8d;
+}
+
+/* Estilo do container de login */
+.login-container {
+    background: var(--light-color);
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+/* Cabeçalho */
+.login-header {
+    margin-bottom: 2rem;
+}
+
+.login-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+    color: var(--gray-color);
+    font-size: 1rem;
+}
+
+/* Formulário */
+.form-control {
+    padding: 0.75rem 1rem;
+    border-radius: 15px;
+    border: 2px solid var(--secondary-color);
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(112, 200, 255, 0.25);
+}
+
+/* Checkbox personalizado */
+.form-check-input {
+    width: 1.1em;
+    height: 1.1em;
+    margin-top: 0.1em;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Links */
+.forgot-password,
+.register-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover,
+.register-link:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+/* Botão */
+.login-button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    padding: 0.75rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    .login-container {
+        padding: 2rem 1.5rem;
+    }
+    
+    .login-title {
+        font-size: 1.5rem;
+    }
+}

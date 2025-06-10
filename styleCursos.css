@@ -1,0 +1,375 @@
+.cursos,
+.cursos * {
+  box-sizing: border-box;
+}
+.cursos {
+  background: #ffffff;
+  height: 1622px;
+  position: relative;
+  overflow: hidden;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.group-6 {
+  width: 660px;
+  height: 263px;
+  position: static;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 660px;
+  height: 263px;
+  position: absolute;
+  left: 13px;
+  top: 317px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-1 {
+  border-radius: 25px;
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  left: 36px;
+  top: 336px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.aprenda-a-criar-sistemas-aplicativos-e-solu-es-reais-entre-na-tecnologia-para-nunca-mais-sair-dela {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 298px;
+  top: 426px;
+  width: 337px;
+  height: 116px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.group-5 {
+  width: 661px;
+  height: 528px;
+  position: static;
+}
+.rectangle-9 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 660px;
+  height: 263px;
+  position: absolute;
+  left: 18px;
+  top: 619px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-2 {
+  border-radius: 25px;
+  width: 223px;
+  height: 223px;
+  position: absolute;
+  left: 41px;
+  top: 639px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.ci-ncia-da-computa-o {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 318px;
+  top: 677px;
+}
+.an-lise-e-desenvolvimento-de-sistemas {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 255px;
+  top: 354px;
+  width: 424px;
+  height: 57px;
+}
+.desvende-os-c-digos-por-tr-s-da-tecnologia-e-torne-se-o-c-rebro-por-tr-s-da-inova-o {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 738px;
+  width: 340px;
+  height: 87px;
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 660px;
+  height: 263px;
+  position: absolute;
+  left: 18px;
+  top: 921px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.engenharia-de-software {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 319px;
+  top: 979px;
+}
+.image-3 {
+  border-radius: 25px;
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  left: 43px;
+  top: 940px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.projete-desenvolva-e-evolua-sistemas-inteligentes-construa-o-futuro-com-engenharia-e-c-digo {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 303px;
+  top: 1040px;
+  width: 332px;
+  height: 125px;
+}
+.group-8 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 660px;
+  height: 263px;
+  position: absolute;
+  left: 20px;
+  top: 1223px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-4 {
+  border-radius: 25px;
+  width: 231.17px;
+  height: 224px;
+  position: absolute;
+  left: 43px;
+  top: 1243px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 231.17/224;
+}
+.sistemas-de-informa-o {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 323px;
+  top: 1281px;
+}
+.conecte-a-tecnologia-ao-neg-cio-e-torne-dados-em-decis-es-inteligentes {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 320px;
+  top: 1342px;
+  width: 315px;
+}
+.cursos-dispon-veis {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 185px;
+  top: 222px;
+}
+.group-10 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 178px;
+  height: 70px;
+  position: absolute;
+  left: 20px;
+  top: 1525px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.voltar {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 1538px;
+}
+.group-11 {
+  width: 178px;
+  height: 81px;
+  position: static;
+}
+.rectangle-42 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 178px;
+  height: 81px;
+  position: absolute;
+  left: 20px;
+  top: 1520px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.voltar2 {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 1535.04px;
+  width: 107px;
+  height: 50.91px;
+}
+.group-15 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-13 {
+  background: #70c8ff;
+  border-radius: 25px;
+  opacity: 0.75;
+  width: 112.69px;
+  height: 48.13px;
+  position: absolute;
+  left: -6px;
+  top: 359.51px;
+  transform-origin: 0 0;
+  transform: rotate(-33.082deg) scale(1, 1);
+}
+.novo {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 15.45px;
+  top: 359.13px;
+  transform-origin: 0 0;
+  transform: rotate(-33.411deg) scale(1, 1);
+}
+.rectangle-3 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  opacity: 0.5;
+  width: 660px;
+  height: 156px;
+  position: absolute;
+  left: 20px;
+  top: 27px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 25px;
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  left: 282px;
+  top: 65px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-1 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 555px;
+  top: 49px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame {
+  width: 119px;
+  height: 119px;
+  position: absolute;
+  left: 545px;
+  top: 40px;
+  overflow: visible;
+}
+.frame2 {
+  width: 144px;
+  height: 144px;
+  position: absolute;
+  left: 20px;
+  top: 27px;
+  overflow: visible;
+}
+.image {
+  border-radius: 154.5px;
+  width: 124px;
+  height: 124px;
+  position: absolute;
+  left: 30px;
+  top: 38px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.nv-25 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 168px;
+  top: 81px;
+}
+.rectangle-26 {
+  background: #70c8ff;
+  border-radius: 25px;
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  left: 280px;
+  top: 65px;
+}
