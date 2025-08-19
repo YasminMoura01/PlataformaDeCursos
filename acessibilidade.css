@@ -1,0 +1,147 @@
+/* acessibilidade.css - Estilos para acessibilidade sem afetar imagens */
+
+/* Controles de Acessibilidade */
+#accessibility-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 200px;
+}
+
+#accessibility-controls button {
+  margin: 0;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: #333;
+  transition: all 0.2s ease;
+  flex-grow: 1;
+}
+
+#accessibility-controls button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Tema de Alto Contraste (sem afetar imagens) */
+.high-contrast {
+  background-color: #000 !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.high-contrast *:not(img):not(picture):not(video):not(svg):not([style*="background-image"]):not(.progress):not(.progress-bar) {
+  background-color: #000 !important;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgb(255, 255, 255) !important;
+}
+
+/* --- Exceções para manter a barra de progresso visível no alto contraste --- */
+
+/* Trilha da barra (o fundo) */
+.high-contrast .progress,
+.high-contrast .progress.bg-secondary,
+.high-contrast .progress.bg-light,
+.high-contrast .progress.bg-dark,
+.high-contrast .progress.bg-white,
+.high-contrast .progress.bg-body {
+  background-color: #222 !important;   /* trilha escura, não preta pura */
+  outline: 1px solid #fff !important;   /* contorno para destacar a trilha */
+}
+
+/* Preenchimento da barra */
+.high-contrast .progress .progress-bar,
+.high-contrast .progress .progress-bar.bg-primary,
+.high-contrast .progress .progress-bar.bg-success,
+.high-contrast .progress .progress-bar.bg-warning,
+.high-contrast .progress .progress-bar.bg-info,
+.high-contrast .progress .progress-bar.bg-danger,
+.high-contrast .progress .progress-bar.bg-secondary {
+  background-color: rgb(68, 7, 236) !important;   /* amarelo bem visível */
+  color: #000 !important;               /* acessível se houver texto dentro da barra */
+}
+
+/* Links em alto contraste */
+.high-contrast a {
+  color: #0ff !important;
+  text-decoration: underline !important;
+}
+
+/* Formulários em alto contraste */
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea,
+.high-contrast button:not(#accessibility-controls button) {
+  background-color: #000 !important;
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+/* Botão Voltar ao Topo */
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+#back-to-top:hover {
+  background-color: #0056b3;
+}
+
+.high-contrast #back-to-top {
+  background-color: rgb(255, 255, 255) !important;
+  color: #000 !important;
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+/* Classes para tamanho de fonte */
+.font-size-small {
+  font-size: 85% !important;
+}
+
+.font-size-normal {
+  font-size: 100% !important;
+}
+
+.font-size-large {
+  font-size: 115% !important;
+}
+
+.font-size-extra-large {
+  font-size: 130% !important;
+}
+
+/* Avatar no header: fundo branco no alto contraste */
+.high-contrast header img.rounded-circle[alt="Foto do usuário"] {
+  background-color: #fff !important;   /* fundo branco dentro do círculo */
+  border-radius: 50% !important;        /* garante o formato circular */
+  padding: 3px;                          /* anel branco ao redor (opcional) */
+}
+
+/* (cobertura extra, caso o alt mude) */
+.high-contrast header img.rounded-circle {
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  padding: 3px;
+}
